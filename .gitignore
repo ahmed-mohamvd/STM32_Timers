@@ -1,20 +1,47 @@
+##############################
 # Build folders
+##############################
 Debug/
 Release/
 build/
 
-# STM32CubeIDE files
-.settings/
+##############################
+# STM32CubeIDE generated
+##############################
 *.launch
-
-# Generated files
-*.o
+*.cfg
+*.log
 *.d
+*.o
+*.su
+*.map
 *.elf
 *.bin
 *.hex
-*.map
 
-# OS files
+##############################
+# Eclipse / CubeIDE metadata
+##############################
+.settings/
+.metadata/
+.cproject
+.project
+.mxproject
+
+##############################
+# OS generated files
+##############################
 .DS_Store
 Thumbs.db
+
+##############################
+# Temporary files
+##############################
+*~
+*.swp
+*.bak
+
+##############################
+# VSCode
+##############################
+.vscode/
